@@ -1,0 +1,223 @@
+QWidget {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #FFF3E0, stop:1 #FFCCBC);
+}
+
+QFrame#contentFrame {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #FFF3E0, stop:1 #FFCCBC);
+    border-radius: 5px;
+}
+
+QFrame#formWidget {
+    background-color: white;
+    border-radius: 7px;
+}
+
+QFrame#formWidget QLabel {
+    background-color: white;
+    color: #D32F2F;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+QLabel#headerLabel {
+    color: #D32F2F;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px;
+    background-color: transparent;
+}
+
+QLabel {
+    color: #D32F2F;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+QLineEdit, QComboBox, QDateEdit, QTextEdit, QSpinBox {
+    background-color: white;
+    color: #D32F2F;
+    border: 1px solid #FF8A80;
+    padding: 5px;
+    border-radius: 3px;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+QCalendarWidget {
+    background-color: white;
+    color: black;
+    font-family: Roboto;
+    font-size: 14px;
+    border: 1px solid #FF8A80;
+    border-radius: 3px;
+}
+
+QCalendarWidget QAbstractItemView {
+    background-color: white;
+    color: black;
+    selection-background-color: #FF8A80;
+    selection-color: white;
+    outline: none;
+}
+
+QCalendarWidget QAbstractItemView:disabled {
+    color: #AAAAAA; 
+}
+
+QCalendarWidget::navigationBar {
+    background-color: white;
+}
+
+QCalendarWidget QToolButton {
+    background-color: white;
+    color: black;
+    font-family: Roboto;
+    font-size: 14px;
+    padding: 5px;
+}
+
+QCalendarWidget QToolButton:hover {
+    background-color: #FFCCBC;
+}
+
+QCalendarWidget QMenu {
+    background-color: white;
+    color: black;
+}
+
+QCalendarWidget QMenu::item:selected {
+    background-color: #FF8A80;
+    color: white;
+}
+
+QComboBox::drop-down {
+    border: none;
+}
+
+QComboBox::down-arrow {
+    image: none;
+    width: 10px;
+    height: 10px;
+}
+
+QScrollArea {
+    background: transparent;
+    border: none;
+}
+
+QScrollBar:vertical, QScrollBar:horizontal {
+    background: #FFCCBC;
+    width: 10px;
+    height: 10px;
+    margin: 0px 0px 0px 0px;
+    border-radius: 5px;
+}
+
+QScrollBar::handle:vertical, QScrollBar::handle:horizontal {
+    background: #FF8A80;
+    min-height: 20px;
+    min-width: 20px;
+    border-radius: 5px;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical,
+QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal {
+    height: 0px;
+    width: 0px;
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical,
+QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
+    background: none;
+}
+
+QTableWidget {
+    background-color: transparent;
+    color: #000000;
+    gridline-color: black;
+    border-radius: 5px;
+}
+
+QHeaderView::section {
+    background-color: #FF8A80;
+    color: black;
+    padding: 5px;
+}
+
+QPushButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+QPushButton:hover {
+    background-color: #388E3C;
+}
+
+QPushButton#updateButton {
+    background-color: #0288D1;
+}
+
+QPushButton#updateButton:hover {
+    background-color: #01579B;
+}
+
+QPushButton#exportButton, QPushButton#dishPasteButton, QPushButton#notesPasteButton{
+    background-color: #FF8A80;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+QPushButton#exportButton:hover, QPushButton#dishPasteButton:hover, QPushButton#notesPasteButton:hover {
+    background-color: #F4511E;
+}
+
+
+QPushButton#deleteButton {
+    background-color: #D32F2F;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+QPushButton#deleteButton:hover {
+    background-color: #B71C1C;
+}
+
+QStatusBar {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #FFF3E0, stop:1 #FFCCBC);
+    color: #D32F2F;
+    font-family: Roboto;
+    font-size: 12px;
+    border-top: 1px solid #FF8A80;
+    padding: 5px;
+}
+
+QDockWidget {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #FFF3E0, stop:1 #FFCCBC);
+    color: #D32F2F;
+    font-family: Roboto;
+    font-size: 14px;
+    border: 1px solid #FF8A80;
+    border-radius: 5px;
+}
+
+QDockWidget::title {
+    background: #FFF3E0;
+    color: black;
+    padding: 5px;
+    font-weight: bold;
+}
+
+QDockWidget::close-button, QDockWidget::float-button {
+    background: #FFF3E0;
+    border-radius: 3px;
+}
+
+QDockWidget::close-button:hover, QDockWidget::float-button:hover {
+    background: #FFCCBC;
+}
