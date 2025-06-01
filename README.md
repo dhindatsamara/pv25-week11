@@ -27,6 +27,7 @@ Pengguna dapat menambahkan data dengan mengisi form di sebelah kiri. Field yang 
 - Dish Name
 - Category
 - Prep Date
+- Portion Size
 - Storage Location
 
 Field *Notes* bersifat opsional. Setelah semua terisi, klik tombol **Add** untuk menyimpan data.
